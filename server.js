@@ -1,5 +1,5 @@
 if(process.env.NODE_ENV !== "production"){
-  require('dotenv').config({path:'github/.env'})
+  require('dotenv').parse()
 }
 
 /* connect express */
